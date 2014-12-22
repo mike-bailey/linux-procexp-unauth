@@ -1,0 +1,15 @@
+Source: procexp
+Section: unknown
+Priority: extra
+Maintainer: Carl Wolff <procexp@wolff-online.nl>
+Build-Depends: debhelper (>= 8.0.0),  python-support (>= 0.90)
+Standards-Version: 3.9.2
+Homepage: http://www.sourceforge.net/apps/mediawiki/procexp/index.php?title=Main_Page
+
+Package: procexp
+Architecture: all
+Depends: schedutils, python, libqwt5-qt4, python-qt4,  python-support (>= 0.90), python-qwt5-qt4, python-configobj, ethtool, policykit-1, tcpdump
+Description: process explorer
+ The linux process explorer enables fine grained examination of processes, threads, resource usage per
+ process and figures about IO and TCP/IP traffic usage per process. Also figures about system resources
+ are available.

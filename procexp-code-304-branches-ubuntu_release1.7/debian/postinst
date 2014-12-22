@@ -1,0 +1,3 @@
+#!/bin/bash
+
+chmod +x /usr/lib/procexp/rootproxy/procroot.py
